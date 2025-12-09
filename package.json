@@ -1,0 +1,24 @@
+
+{
+  "name": "salespilot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "bin": {
+    "salespilot": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.0",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0",
+    "nodemon": "^2.0.22"
+  }
+}
