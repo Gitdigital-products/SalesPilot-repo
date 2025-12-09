@@ -1,0 +1,10 @@
+
+{
+  "id": "string",
+  "email": "string",
+  "name": "string",
+  "company": "string",
+  "score": "number",
+  "source": "string",
+  "tags": ["string"]
+}
