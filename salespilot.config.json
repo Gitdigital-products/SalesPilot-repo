@@ -1,0 +1,11 @@
+
+{
+  "emailProvider": "sendgrid",
+  "defaultSequence": "outreach_a",
+  "queueInterval": "1m",
+  "leadScoreWeights": {
+    "engagement": 0.5,
+    "companySize": 0.3,
+    "openRate": 0.2
+  }
+}
